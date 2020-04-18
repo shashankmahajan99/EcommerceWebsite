@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.banner
+{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: #fdd998;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.15;
+}
+.banner .content 
+{
+	position: relative;
+	max-width: 750px;
+	text-align: center;
+}
+.banner .content h2
+{
+	color: #fff;
+	font-size: 60px;
+}
+.banner .content p
+{
+	color: #fff;
+	font-size: 18px;
+}
+.banner header
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 40px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 10000;
+}
+.banner header .logo
+{
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.logoimg
+{
+  	vertical-align: middle;
+  	width: 50px;
+  	height: 50px;
+  	border-radius: 50%;
+}
+.banner header .toggle
+{
+	position: relative;
+	width: 36px;
+	height: 28px;
+	background: url(toggle.png);
+	background-size: cover;
+	cursor: pointer;
+}
+.about
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+}
+.about .contentBx
+{
+	background: #f5b971;
+	padding: 100px;
+	width: 50%;
+}
+.heading
+{
+	color:#fff;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+.text
+{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+.about .imgBx
+{
+	background: url(imgBx.jpg);
+	width: 50%;
+	background-size: cover;
+	background-position: center;
+}
+.types
+{
+	background: #df8543;
+	padding: 100px;
+	text-align: center;
+}
+.types .container
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 60px;
+}
+.types .container .typeBx
+{
+	position: relative;
+	background: #fff;
+	width: 350px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.types .container .typeBx h2
+{
+	font-weight: 500;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.parts
+{
+	background: #fed39f;
+	width: 100%;
+	padding: 100px;
+	padding-top: 300px;
+	margin-top: -300px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.parts .contentBx
+{
+	max-width: 700px;
+}
+
+.parts .imgBx
+{
+	max-width: 350px; 
+}
+
+.parts .imgBx img
+{
+	max-width: 100%;
+	border-radius: 50%;
+}
+.contact
+{
+	padding: 100px;
+	background: #162c3b;
+	text-align: center;
+}
+.imgBx2
+{
+	background: url(bg2.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 50%;
+}
+.pinkbg
+{
+	background: #eb4d55 !important;
+	background-size: cover;
+	background-position: center;
+	width: 50%;
+}
+.form .inputBx
+{
+	margin-bottom: 40px;
+}
+.form .inputBx input
+{
+	width: 100%;
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	outline: none;
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: 300;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+}
+.form .inputBx input::placeholder
+{
+	color: #fff;
+}
+.form .inputBx textarea
+{
+	width: 100%;
+	background: transparent;
+	box-shadow: none;
+	border: none;
+	outline: none;
+	padding: 10px 0;
+	font-size: 18px;
+	font-weight: 300;
+	color: #fff;
+	height: 150px;
+	border-bottom: 2px solid #fff;
+}
+.form .inputBx textarea::placeholder
+{
+	color: #fff;
+}
+.form .inputBx input[type="submit"]
+{
+	width: 150px;
+	background: #fff;
+	color: #111;
+	cursor: pointer;
+	font-weight: 400;
+}
+.footer
+{
+	background: #162c3b;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer ul
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer ul li
+{
+	list-style-type: none;
+}
+.footer ul li a
+{
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+}
+.footer ul li a img
+{
+	filter: invert(1);
+	max-width: 20px;
+}
